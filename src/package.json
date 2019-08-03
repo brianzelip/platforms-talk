@@ -8,7 +8,5 @@
   "dependencies": {
     "palette.css": "^0.3.4"
   },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.3"
-  }
+  "devDependencies": {}
 }
