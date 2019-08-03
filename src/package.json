@@ -5,8 +5,6 @@
   "scripts": {},
   "author": "Brian Zelip <bzelip@gmail.com> (https://zelip.me/)",
   "license": "MIT",
-  "dependencies": {
-    "palette.css": "^0.3.4"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
