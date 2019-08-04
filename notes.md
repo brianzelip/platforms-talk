@@ -12,4 +12,8 @@
   - init a new netlify project, connect to github, and pull it in
     - show the netlify CI pipeline by making a pull request in the gh repo
     - show the branch deploy preview, point out the immutability of this version, which can be passed around to team mates and other stakeholders as a url to get their feedback on the changes
-    - show Netlify Forms - build a pre-written form component, activate it, use it, and show the data in the netlify admin dashboard
+    - show Netlify Forms - build a pre-written form component, activate it, use it, and show the data in the netlify admin dashboard, and download the csv and show them the data
+- then show now running the same code
+  - now is where php and wordpress can be run
+  - mention the cli tool to use this
+- if time, run the same code in CodeSandbox
