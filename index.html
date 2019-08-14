@@ -13,37 +13,47 @@
       :root {
         --ubalt-blue: #007DB6;
       }
-      body,
-      .vh100 {
+      body {
         min-height: 100vh;
       }
-      .justify-content-center {
-        justify-content: center;
-      }
-      .ubalt-blue {
-        color: var(--ubalt-blue);
-      }
-      .bg-ubalt-blue {
-        background-color: var(--ubalt-blue);
-      }
       main {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-image: url('image.jpg');
         background-size: cover;
         background-color: white;
+      }
+      section {
+        padding: 1rem;
+        background-color: white;
+      }
+      .title {
+        margin-top: 0;
+      }
+      .event, .author {
+        font-weight: 400;
+      }
+      .author {
+        margin-bottom: 0;
+      }
+      a {
+        color: #b10dc9;
       }
     </style>
   </head>
 
   <body>
-    <main class="vh100 flex flex-center justify-content-center">
-      <section class="p2 bg-white">
-        <h1 class="mt0">Platforms for Using Modern Web Dev Tools</h1>
-        <h2 class="regular">
-          <a class="purple" href="https://wiki.code4lib.org/MDC/2019">Code{4}Lib MDC 2019</a>
+    <main>
+      <section>
+        <h1 class="title">Platforms for Using Modern Web Dev Tools</h1>
+        <h2 class="event">
+          <a href="https://wiki.code4lib.org/MDC/2019">Code{4}Lib MDC 2019</a>
           &middot; University of Baltimore
         </h2>
-        <h2 class="mb0 regular">
-          Brian Zelip &middot; <a class="purple" href="https://zelip.me">zelip.me</a>
+        <h2 class="author">
+          Brian Zelip &middot; <a href="https://zelip.me">zelip.me</a>
         </h2>
       </section>
     </main>
