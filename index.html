@@ -9,23 +9,30 @@
       rel="stylesheet"
       href="https://unpkg.com/palette.css@0.3.4/dist/palette.min.css"
     />
+    <style>
+      body,
+      .vh100 {
+        min-height: 100vh;
+      }
+      .justify-content-center {
+        justify-content: center;
+      }
+      main {background-image: url('image.jpg'); background-size: cover}
+    </style>
   </head>
 
   <body>
-    <h1>Platforms for Using Modern Web Dev Tools</h1>
-    <form name="contact" method="POST" netlify>
-      <p>
-        <label>Your Name: <input type="text" name="name"/></label>
-      </p>
-      <p>
-        <label>Your Email: <input type="email" name="email"/></label>
-      </p>
-      <p>
-        <label>Message: <textarea name="message"></textarea></label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
+    <main class="vh100 flex flex-center justify-content-center">
+      <section class="p2 bg-white">
+        <h1 class="mt0">Platforms for Using Modern Web Dev Tools</h1>
+        <h2 class="regular">
+          <a class="teal" href="https://wiki.code4lib.org/MDC/2019">Code{4}Lib MDC 2019</a>
+          &middot; University of Baltimore
+        </h2>
+        <h2 class="mb0 regular">
+          Brian Zelip &middot; <a class="teal" href="https://zelip.me">zelip.me</a>
+        </h2>
+      </section>
+    </main>
   </body>
 </html>
