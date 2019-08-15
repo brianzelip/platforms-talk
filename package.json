@@ -5,7 +5,9 @@
   "repository": {
     "url": "https://github.com/brianzelip/platforms-talk"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "node server.js"
+  },
   "author": "Brian Zelip <bzelip@gmail.com> (https://zelip.me/)",
   "license": "MIT",
   "dependencies": {
