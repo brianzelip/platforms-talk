@@ -8,6 +8,10 @@
   "scripts": {},
   "author": "Brian Zelip <bzelip@gmail.com> (https://zelip.me/)",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
 }
