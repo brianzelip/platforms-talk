@@ -6,11 +6,9 @@ This presentation tours online applications for writing and deploying code. Name
 
 - GitHub
 - Glitch
-- MongoDB Atlas
+- mLab (MongoDB Atlas)
 - Netlify
 - Now
 - CodeSandbox
-- Tinkercad Circuits
-- CodePen
 
 These resources are great for experimentation and learning, and are particularly useful for folks interested in modern JavaScript, CSS, Git, WordPress, etc. We'll wield code in each application to get a sense of what it can do and how it works, identifying concepts and trends along the way.
