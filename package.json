@@ -8,6 +8,9 @@
   "scripts": {},
   "author": "Brian Zelip <bzelip@gmail.com> (https://zelip.me/)",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
   "devDependencies": {}
 }
