@@ -2,6 +2,9 @@
   "name": "platforms-talk",
   "version": "0.1.0",
   "description": "Talk prepared for Code{4}Lib MDC 2019 meetup.",
+  "repository": {
+    "url": "https://github.com/brianzelip/platforms-talk"
+  },
   "scripts": {},
   "author": "Brian Zelip <bzelip@gmail.com> (https://zelip.me/)",
   "license": "MIT",
