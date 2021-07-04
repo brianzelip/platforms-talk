@@ -1,0 +1,21 @@
+- open up browser w/ blank tab and gmail
+- Show webpage
+- upload a live pic to github from phone
+- refresh webpage
+- copy pic to glitch (put in public/)
+- open glitch, clone repo into new project
+- show rendering index.html, then use views and index.pug
+- mention SSR
+- show groceries-vue-api for how glitch can be used in a light production environment
+- show the db calls in g-v-a, and show mLab
+- show errands.netlify.com for an example of a front end hitting a back end
+- start showing netlify, via localhost
+- show package.json to see only 2 deps
+- run npm start to see parcel get all remaining requirements
+- make new branch, copy pic to repo, push, and submit PR to see github CI process
+- then init netlify on the repo
+- show vue data binding by making `urls: {repo, event, home}`
+- make a new branch for this vue work, then submit PR in github to watch new netlify CI build
+- make new gh repo based on the netlify branch
+- connect and deploy to now
+- show code sandbox, import the same repo as now
